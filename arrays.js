@@ -22,9 +22,13 @@ const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
 let middleNums = []
-// for(let i = 0; i < arr.length; i++){
-
-// }
+for(let i = 0; i < numbers.length; i++){
+  if(numbers[i] === 1 || numbers[i] === numbers.length){
+    console
+  } else {
+    middleNums.push(numbers[i])
+  }
+}
 
 console.log(middleNums)
 //////////////////PROBLEM 4////////////////////
